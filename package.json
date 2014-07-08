@@ -1,0 +1,53 @@
+{
+  "name": "support-browser",
+  "author": {
+    "name": "wxnet2013",
+    "url": "https://github.com/wxnet2013"
+  },
+  "description": "the definitive JavaScript type testing library",
+  "homepage": "https://github.com/wxnet2013/support-browser",
+  "keywords": [
+    "browser",
+    "support",
+    "cmd"
+  ],
+  "contributors": [
+    {
+      "name": "wxnet2013",
+      "url": "https://github.com/wxnet2013"
+    }
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wxnet2013/support-browser.git"
+  },
+  "main": "index.js",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node test/index.js",
+    "coverage": "covert test/index.js",
+    "coverage-quiet": "covert test/index.js --quiet"
+  },
+  "devDependencies": {},
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0",
+      "chrome/22.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/5.0.5..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest"
+    ]
+  },
+  "engines": {
+    "node": "*"
+  }
+}
