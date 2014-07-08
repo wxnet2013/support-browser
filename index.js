@@ -29,7 +29,7 @@ module.exports = {
 		return 'ontouchstart' in window;
 	},
 	pointer: function() {
-		return window.PointerEvent || window.MSPointerEvent;
+		return !!(window.PointerEvent || window.MSPointerEvent);
 	},
 	msPointer: function() {
 		return 'msPointerEnabled' in navigator;
