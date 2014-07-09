@@ -4,7 +4,7 @@
     "name": "wxnet2013",
     "url": "https://github.com/wxnet2013"
   },
-  "description": "the definitive JavaScript type testing library",
+  "description": "Check the HTML5 features of Browser.",
   "homepage": "https://github.com/wxnet2013/support-browser",
   "keywords": [
     "browser",
@@ -23,7 +23,7 @@
     "url": "git@github.com:wxnet2013/support-browser.git"
   },
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "test": "node test/index.js",
     "coverage": "covert test/index.js",
