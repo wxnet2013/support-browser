@@ -23,7 +23,7 @@
     "url": "git@github.com:wxnet2013/support-browser.git"
   },
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "test": "node test/index.js",
     "coverage": "covert test/index.js",
